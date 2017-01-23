@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/DummyScene.unity
+- path: Assets/Room1Disturbed.unity
   isLoaded: 1
   isActive: 1
