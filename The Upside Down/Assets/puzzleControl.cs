@@ -6,6 +6,7 @@ public class puzzleControl : MonoBehaviour
 {
 
     private int room, currentPuzzle, puzzlePhase;
+    private string selectedInvItem;
     //
     private bool isDisturbed;
 
@@ -18,6 +19,7 @@ public class puzzleControl : MonoBehaviour
         currentPuzzle = 1;
         puzzlePhase = 1;
         isDisturbed = false;
+        selectedInvItem = "empty";
     }
 
     // Update is called once per frame
