@@ -10,7 +10,7 @@ public class PlayerCtrl : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Mouse0))
         {
             targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            print(targetPosition);
+            targetPosition.y = -2;  /// -2 is tentative, all depends on what the set bottom floor is
         }
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, Time.deltaTime * 5);
 	}
